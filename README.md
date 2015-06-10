@@ -268,7 +268,8 @@ $( "a" ).showLinkLocation();
 ####文章里的例子，在仓库中，如果感兴趣请先git clone到本地，自己运行。
 
 
-本文翻译自api.jquery.com的插件制作官方文档，如果文章有翻译错误，请指正。(转载请注明出处，谢谢:blush:)
+本文翻译自api.jquery.com的插件制作官方文档，如果文章有翻译错误，请指正。
+(转载请注明出处，谢谢:blush:)
 
 [参考原文地址：http://learn.jquery.com/plugins/basic-plugin-creation/](http://learn.jquery.com/plugins/basic-plugin-creation/ "悬停显示")
 
