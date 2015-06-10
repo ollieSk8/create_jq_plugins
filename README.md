@@ -242,7 +242,6 @@ $( "a" ).showLinkLocation();
 <a href="page.html">Foo (page.html)</a>
 ```
 
-```
 
 ```javascript
 
