@@ -71,6 +71,7 @@ $符号和其他插件一起共工作。我们必须把我们的代码放在匿�
 
 相应的形参用$符号。
 
+
 ```javascript
 (function ( $ ) {
  
@@ -157,6 +158,7 @@ $.fn.myNewPlugin = function() {
     });
  
 };
+
 ```
 
 `注意：我们返回的是.each()的结果 代替了 return this. 因为each()已经是可链式的，each内部已经返回了我们需要return的this.这是到目前为止让我们应用链式最好的方式。`
