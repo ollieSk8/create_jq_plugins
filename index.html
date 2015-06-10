@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery_Plugins</title>
+</head>
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="greenify.js"></script>
+<script type="text/javascript" src="showLinkLocation.js"></script>
+<body>
+	<!--  greenify例子-->
+
+	<div>文字会变成橘红色的</div></br></br>
+	<script type="text/javascript">
+	$( "div" ).greenify({
+	    color: "orange"
+	});
+	</script>
+	<!-- showLinkLocation例子 -->
+
+	<a href="https://github.com/ollieSk8">链接的地址为:</a>
+
+	<script type="text/javascript">
+	$( "a" ).showLinkLocation();
+	</script>
+</body>
+</html>
